@@ -1,0 +1,323 @@
+camera1:
+  Acquire: true
+  AcquisitionFrameRate: 100.0
+  AcquisitionMode: Continuous
+  ExposureAuto: 'Off'
+  ExposureTimeAbs: 10000.0
+  FocusPos: 0
+  Gain: 100.0
+  GainAuto: 'Off'
+  TriggerMode: 'Off'
+  TriggerSource: Software
+  frame_id: camera1
+  guid: Basler-21579580
+  image_raw:
+    compressed: {format: jpeg, jpeg_quality: 50, png_level: 9}
+    compressedDepth: {depth_max: 10.0, depth_quantization: 100.0, png_level: 9}
+    theora: {keyframe_frequency: 64, optimize_for: 1, quality: 31, target_bitrate: 800000}
+  mtu: 9000
+  softwaretriggerrate: 100.0
+camera2:
+  Acquire: true
+  AcquisitionFrameRate: 100.0
+  AcquisitionMode: Continuous
+  ExposureAuto: 'Off'
+  ExposureTimeAbs: 10000.0
+  FocusPos: 0
+  Gain: 100.0
+  GainAuto: 'Off'
+  TriggerMode: 'Off'
+  TriggerSource: Software
+  frame_id: camera2
+  guid: Basler-21589388
+  image_raw:
+    compressed: {format: jpeg, jpeg_quality: 50, png_level: 9}
+    compressedDepth: {depth_max: 10.0, depth_quantization: 100.0, png_level: 9}
+    theora: {keyframe_frequency: 64, optimize_for: 1, quality: 31, target_bitrate: 800000}
+  mtu: 9000
+  softwaretriggerrate: 100.0
+camera3:
+  Acquire: true
+  AcquisitionFrameRate: 100.0
+  AcquisitionMode: Continuous
+  ExposureAuto: 'Off'
+  ExposureTimeAbs: 10000.0
+  FocusPos: 0
+  Gain: 100.0
+  GainAuto: 'Off'
+  TriggerMode: 'Off'
+  TriggerSource: Software
+  frame_id: camera3
+  guid: Basler-21579593
+  image_raw:
+    compressed: {format: jpeg, jpeg_quality: 50, png_level: 9}
+    compressedDepth: {depth_max: 10.0, depth_quantization: 100.0, png_level: 9}
+    theora: {keyframe_frequency: 64, optimize_for: 1, quality: 31, target_bitrate: 800000}
+  mtu: 9000
+  softwaretriggerrate: 100.0
+kinefly1_pin:
+  abdomen: {autozero: true, threshold: 0.02, tracker: tip}
+  aux: {tracker: intensity}
+  filenameBackground: /home/kineflyjf/kinefly1_pin.png
+  flystate2ledpanels:
+    axis: x
+    coeff_usb: {x0: 0.0, xaa: 0.0, xar: 0.0, xha: 0.0, xhr: 0.0, xl1: 1.0, xl2: 0.0,
+      xr1: -1.0, xr2: 0.0, xxi: 0.0, y0: 0.0, yaa: 0.0, yar: 0.0, yha: 0.0, yhr: 0.0,
+      yl1: 0.0, yl2: 0.0, yr1: 0.0, yr2: 0.0, yxi: 0.0}
+    coeff_voltage: {adc0: 1.0, adc1: 0.0, adc2: 0.0, adc3: 0.0, funcx: 0.0, funcy: 0.0}
+    method: voltage
+    mode: velocity
+    pattern_id: 1
+  flystate2phidgetsanalog: {autorange: false, serial: 350652, v00: 0.0, v0aa: 0.0,
+    v0ar: 0.0, v0enable: true, v0ha: 0.0, v0hr: 0.0, v0l1: 0.0, v0l2: 0.0, v0lr: 0.0,
+    v0r1: 1.0, v0r2: 0.0, v0rr: 0.0, v0xi: 0.0, v10: 0.0, v1aa: 0.0, v1ar: 0.0, v1enable: true,
+    v1ha: 0.0, v1hr: 0.0, v1l1: 0.0, v1l2: 0.0, v1lr: 0.0, v1r1: 0.0, v1r2: 0.0, v1rr: 0.01,
+    v1xi: 0.0, v20: 0.0, v2aa: 0.0, v2ar: 0.0, v2enable: true, v2ha: 0.0, v2hr: 0.0,
+    v2l1: 1.0, v2l2: 0.0, v2lr: 0.0, v2r1: 0.0, v2r2: 0.0, v2rr: 0.0, v2xi: 0.0, v30: 0.0,
+    v3aa: 0.0, v3ar: 0.0, v3enable: true, v3ha: 0.0, v3hr: 0.0, v3l1: 0.0, v3l2: 0.0,
+    v3lr: 0.0, v3r1: 0.0, v3r2: 0.0, v3rr: 0.0, v3xi: 1.0}
+  gui:
+    abdomen:
+      angle_hi: -1.2760662215855199
+      angle_lo: -2.481229409842557
+      hinge: {x: 270.0, y: 260.0}
+      radius_inner: 189.52836199366047
+      radius_outer: 250.28383887099062
+      stabilize: false
+      subtract_bg: false
+      track: false
+    aux:
+      angle: 1.0468769791096975
+      center: {x: 250.0, y: 382.0}
+      radius1: 17.4928556845359
+      radius2: 51.97114584074513
+      subtract_bg: false
+      track: true
+    axis:
+      pt1: {x: 285.0, y: 147.0}
+      pt2: {x: 297.0, y: 268.0}
+      track: false
+    head:
+      angle_hi: -0.4076315054576267
+      angle_lo: -1.9454775270776727
+      hinge: {x: 329.0, y: 280.0}
+      radius_inner: 40.792156108742276
+      radius_outer: 67.62396025078685
+      stabilize: false
+      subtract_bg: false
+      track: false
+    left:
+      angle_hi: -1.6731597964260039
+      angle_lo: -2.551993225695392
+      hinge: {x: 312.0, y: 254.0}
+      radius_inner: 160.0562401157793
+      radius_outer: 276.0163038662753
+      stabilize: false
+      subtract_bg: true
+      track: true
+    right:
+      angle_hi: 0.6802210734461855
+      angle_lo: -0.3704353516971537
+      hinge: {x: 304.0, y: 287.0}
+      radius_inner: 171.0263137648707
+      radius_outer: 275.26169366622736
+      stabilize: false
+      subtract_bg: true
+      track: true
+    symmetric: false
+    windows: false
+  head: {autozero: true, feathering: 0.0, threshold: 0.0, tracker: area}
+  image_topic: /camera1/image_raw
+  left: {autozero: true, saturation_correction: false, threshold: 0.008, tracker: tip}
+  n_edges_max: 1
+  n_queue_images: 2
+  parameterfile: /home/kineflyjf/kinefly1_pin.yaml
+  rc_background: 100000.0
+  right: {autozero: true, saturation_correction: false, threshold: 0.002, tracker: tip}
+  scale_image: 1.0
+  use_gui: true
+  wingbeat_max: 220.0
+  wingbeat_min: 180.0
+kinefly2_pin:
+  abdomen: {autozero: true, threshold: 0.02, tracker: tip}
+  aux: {tracker: intensity}
+  filenameBackground: /home/kineflyjf/kinefly2_pin.png
+  flystate2ledpanels:
+    axis: x
+    coeff_usb: {x0: 0.0, xaa: 0.0, xar: 0.0, xha: 0.0, xhr: 0.0, xl1: 1.0, xl2: 0.0,
+      xr1: -1.0, xr2: 0.0, xxi: 0.0, y0: 0.0, yaa: 0.0, yar: 0.0, yha: 0.0, yhr: 0.0,
+      yl1: 0.0, yl2: 0.0, yr1: 0.0, yr2: 0.0, yxi: 0.0}
+    coeff_voltage: {adc0: 1.0, adc1: 0.0, adc2: 0.0, adc3: 0.0, funcx: 0.0, funcy: 0.0}
+    method: voltage
+    mode: velocity
+    pattern_id: 1
+  flystate2phidgetsanalog: {autorange: false, serial: 348719, v00: 0.0, v0aa: 0.0,
+    v0ar: 0.0, v0enable: true, v0ha: 0.0, v0hr: 0.0, v0l1: 1.0, v0l2: 0.0, v0lr: 0.0,
+    v0r1: 0.0, v0r2: 0.0, v0rr: 0.0, v0xi: 0.0, v10: 0.0, v1aa: 0.0, v1ar: 0.0, v1enable: true,
+    v1ha: 0.0, v1hr: 0.0, v1l1: 0.0, v1l2: 0.0, v1lr: 0.01, v1r1: 0.0, v1r2: 0.0,
+    v1rr: 0.0, v1xi: 0.0, v20: 0.0, v2aa: 0.0, v2ar: 0.0, v2enable: true, v2ha: 0.0,
+    v2hr: 0.0, v2l1: 0.0, v2l2: 0.0, v2lr: 0.0, v2r1: 1.0, v2r2: 0.0, v2rr: 0.0, v2xi: 0.0,
+    v30: 0.0, v3aa: 0.0, v3ar: 0.0, v3enable: true, v3ha: 0.0, v3hr: 0.0, v3l1: 0.0,
+    v3l2: 0.0, v3lr: 0.0, v3r1: 0.0, v3r2: 0.0, v3rr: 0.0, v3xi: 1.0}
+  gui:
+    abdomen:
+      angle_hi: 2.636034433180555
+      angle_lo: 1.5949875566318257
+      hinge: {x: 288.0, y: 273.0}
+      radius_inner: 142.30249470757707
+      radius_outer: 241.7457341919398
+      stabilize: false
+      subtract_bg: true
+      track: false
+    aux:
+      angle: -0.5337081916392614
+      center: {x: 436.0, y: 416.0}
+      radius1: 13.038404810405298
+      radius2: 25.553864678361276
+      subtract_bg: false
+      track: true
+    axis:
+      pt1: {x: 310, y: 150}
+      pt2: {x: 314.0, y: 252.0}
+      track: false
+    head:
+      angle_hi: 0.5486614430834624
+      angle_lo: -1.362421785423156
+      hinge: {x: 226.0, y: 299.0}
+      radius_inner: 26.627053911388696
+      radius_outer: 68.18357573492314
+      stabilize: false
+      subtract_bg: false
+      track: false
+    left:
+      angle_hi: 0.7262771106030055
+      angle_lo: -0.35713094946809765
+      hinge: {x: 254.0, y: 306.0}
+      radius_inner: 128.80993750483694
+      radius_outer: 234.88720697390056
+      stabilize: false
+      subtract_bg: false
+      track: true
+    right:
+      angle_hi: 2.7009800582980343
+      angle_lo: 1.8417200591313332
+      hinge: {x: 237.0, y: 240.0}
+      radius_inner: 172.58621034138272
+      radius_outer: 257.0311265197272
+      stabilize: false
+      subtract_bg: false
+      track: true
+    symmetric: false
+    windows: false
+  head: {autozero: true, feathering: 0.0, threshold: 0.0, tracker: area}
+  image_topic: /camera2/image_raw
+  left: {autozero: true, saturation_correction: false, threshold: 0.003, tracker: tip}
+  n_edges_max: 1
+  n_queue_images: 2
+  parameterfile: /home/kineflyjf/kinefly2_pin.yaml
+  rc_background: 100000.0
+  right: {autozero: true, saturation_correction: false, threshold: 0.008, tracker: tip}
+  scale_image: 1.0
+  use_gui: true
+  wingbeat_max: 220.0
+  wingbeat_min: 180.0
+kinefly3_pin:
+  abdomen: {autozero: true, threshold: 0.025, tracker: tip}
+  aux: {tracker: intensity}
+  filenameBackground: /home/kineflyjf/kinefly3_pin.png
+  flystate2ledpanels:
+    axis: x
+    coeff_usb: {x0: 0.0, xaa: 0.0, xar: 0.0, xha: 0.0, xhr: 0.0, xl1: 1.0, xl2: 0.0,
+      xr1: -1.0, xr2: 0.0, xxi: 0.0, y0: 0.0, yaa: 0.0, yar: 0.0, yha: 0.0, yhr: 0.0,
+      yl1: 0.0, yl2: 0.0, yr1: 0.0, yr2: 0.0, yxi: 0.0}
+    coeff_voltage: {adc0: 1.0, adc1: 0.0, adc2: 0.0, adc3: 0.0, funcx: 0.0, funcy: 0.0}
+    method: voltage
+    mode: velocity
+    pattern_id: 1
+  flystate2phidgetsanalog: {autorange: false, serial: 348722, v00: 0.0, v0aa: 0.0,
+    v0ar: 0.0, v0enable: true, v0ha: 0.0, v0hr: 0.0, v0l1: 1.0, v0l2: 0.0, v0lr: 0.0,
+    v0r1: 0.0, v0r2: 0.0, v0rr: 0.0, v0xi: 0.0, v10: 0.0, v1aa: 0.0, v1ar: 0.0, v1enable: true,
+    v1ha: 0.0, v1hr: 0.0, v1l1: 0.0, v1l2: 0.0, v1lr: 0.0, v1r1: 1.0, v1r2: 0.0, v1rr: 0.0,
+    v1xi: 0.0, v20: 0.0, v2aa: 0.0, v2ar: 0.0, v2enable: true, v2ha: 1.0, v2hr: 0.0,
+    v2l1: 0.0, v2l2: 0.0, v2lr: 0.0, v2r1: 0.0, v2r2: 0.0, v2rr: 0.0, v2xi: 0.0, v30: 0.0,
+    v3aa: 0.0, v3ar: 0.0, v3enable: true, v3ha: 0.0, v3hr: 0.0, v3l1: 0.0, v3l2: 0.0,
+    v3lr: 0.0, v3r1: 0.0, v3r2: 0.0, v3rr: 0.0, v3xi: 1.0}
+  gui:
+    abdomen:
+      angle_hi: 3.628491885401062
+      angle_lo: 2.654693421778524
+      hinge: {x: 335.0, y: 251.0}
+      radius_inner: 58.05170109479997
+      radius_outer: 173.11845655504212
+      stabilize: false
+      subtract_bg: false
+      track: true
+    aux:
+      angle: -2.1193457292454245
+      center: {x: 312.0, y: 112.0}
+      radius1: 21.095023109728988
+      radius2: 26.0
+      subtract_bg: false
+      track: true
+    axis:
+      pt1: {x: 315.0, y: 156.0}
+      pt2: {x: 310, y: 250}
+      track: false
+    head:
+      angle_hi: 1.207221332606963
+      angle_lo: -1.2072213326069632
+      hinge: {x: 335.0, y: 176.0}
+      radius_inner: 33.015148038438355
+      radius_outer: 73.05477397131553
+      stabilize: false
+      subtract_bg: false
+      track: true
+    left:
+      angle_hi: -0.2575660850245889
+      angle_lo: -1.7425371712696975
+      hinge: {x: 280.0795547924596, y: 209.93002826264006}
+      radius_inner: 93.68202473300656
+      radius_outer: 257.8731908757988
+      stabilize: false
+      subtract_bg: false
+      track: true
+    right:
+      angle_hi: 1.7425371712696975
+      angle_lo: 0.2575660850245889
+      hinge: {x: 389.92044520754047, y: 209.93002826264032}
+      radius_inner: 93.68202473300656
+      radius_outer: 257.8731908757988
+      stabilize: false
+      subtract_bg: false
+      track: true
+    symmetric: true
+    windows: true
+  head: {autozero: true, feathering: 0.0, threshold: 0.0, tracker: area}
+  image_topic: /camera3/image_raw
+  left: {autozero: true, saturation_correction: false, threshold: 0.005, tracker: edge}
+  n_edges_max: 1
+  n_queue_images: 1
+  parameterfile: /home/kineflyjf/kinefly3_pin.yaml
+  rc_background: 100000.0
+  right: {autozero: true, saturation_correction: false, threshold: 0.005, tracker: edge}
+  scale_image: 1.0
+  use_gui: true
+  wingbeat_max: 220.0
+  wingbeat_min: 180.0
+rosdistro: 'hydro
+
+  '
+roslaunch:
+  uris: {host_kineflyjf__37583: 'http://KineflyJF:37583/', host_kineflyjf__49629: 'http://KineflyJF:49629/',
+    host_kineflyjf__55726: 'http://KineflyJF:55726/', host_kineflyjf__58148: 'http://KineflyJF:58148/'}
+rosversion: '1.10.11
+
+  '
+run_id: 44325318-cbb4-11e7-9d0a-3417ebcf7bd0
+stimulus:
+  acquirevoltages2msg:
+    channels_ai: [0, 1, 2]
+    channels_di: [0, 1, 2, 3, 4, 5, 6, 7]
+  interfacekit: {serial: 0}
+  serial: 345595
+use_sim_time: false

@@ -1,0 +1,39 @@
+Tue May 30 14:36:49 EDT 2017
+h11u28.int.janelia.org
+------------------------------------------
+Setting up environment variables
+---
+LD_LIBRARY_PATH is .:/misc/local/matlab-2013a/runtime/glnxa64:/misc/local/matlab-2013a/bin/glnxa64:/misc/local/matlab-2013a/sys/os/glnxa64:/misc/local/matlab-2013a/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/misc/local/matlab-2013a/sys/java/jre/glnxa64/jre/lib/amd64/server:/misc/local/matlab-2013a/sys/java/jre/glnxa64/jre/lib/amd64/client:/misc/local/matlab-2013a/sys/java/jre/glnxa64/jre/lib/amd64
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Starting matlabpool using the 'local' profile ... connected to 12 workers.
+Reading daq file header info.
+Warning: Directory already exists.
+[> In FlySongSegmenterDAQ at 30
+  In fly_song_segmenter at 32] 
+Grabbing song from daq file channel 9.
+Song length is 30.2 minutes.
+Running multitaper analysis #1.
+Finding noise floor.
+Warning: Failed to converge in 100 iterations for gmdistribution with 6 components
+[> In @gmdistribution/private/gmcluster at 185
+  In gmdistribution.fit at 174
+  In EstimateNoise>(parfor body) at 22
+  In parallel_function>make_general_channel/channel_general at 891
+  In remoteParallelFunction at 28] 
+Running wavelet transformation.
+Segmenting pulses.
+Culling pulses heuristically.
+Culling pulses with likelihood model.
+Masking pulses.
+Running multitaper analysis.
+Segmenting sine song.
+Winnowing sine song.
+  Remove sine that overlaps pulse
+  Remove sine song falling between two nearby pulses
+  Call contiguous sequence
+  Discard less n steps
+  Grap clips
+  Produce output
+Run time was 7.28 minutes.
+Sending a stop signal to all the workers ... stopped.
+Tue May 30 14:44:58 EDT 2017

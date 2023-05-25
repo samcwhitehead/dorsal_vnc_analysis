@@ -1,0 +1,48 @@
+1 - ssh to your home directory
+
+2 - Add matlab to your path
+
+Add this line to your ~/.bashrc: export PATH=$PATH:/usr/local/matlab-2010a/bin
+Do this as follows
+
+>vim ~/.bashrc
+
+press i (for insert), paste line above at end of file
+
+press esc, then :wq
+
+>source ~/.bashrc
+
+3 - login to node and request one matlab license
+
+>qlogin -l matlab=1
+
+This will move you to a node, then type
+
+$ matlab
+
+This starts matlab
+
+Now, navigate to the folder containing the code
+
+>> cd('/groups/stern/sternlab/behavior/Batch_FlySongAnalysis')
+
+Now you can run batch analysis and batch plotting, as follows
+
+>> BatchFlySongAnalysis('../Elizabeth/POC_song_recording/20121219150847_out/',{'strain1' 'wild_type'},{[1 10] [11 18]},{'wild_type' 'other_wild_type'})
+
+This produces time-stamped '_Results_' files
+then plot the results
+
+>> PlotAnalysis('../Elizabeth/POC_song_recording/20121219105502_Results_20130102190147/',{'one' 'two' 'three'},['folder3' 'folder1'},{'Ore-R' 'Canton-S'})
+
+This generates two plots for each genotype, one with and one without outliers, which are placed in the 'Results' folder
+
+There are some easy tricks to auto fill in some of the long path names, which I can show you.
+ 
+When you are done type
+
+>> exit
+$ exit
+
+This frees up the node you were using and the Matlab license, which is more important. Make sure you always free up the Matlab license when you are done.

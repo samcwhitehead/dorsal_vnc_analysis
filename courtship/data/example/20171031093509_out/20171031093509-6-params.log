@@ -1,0 +1,64 @@
+Tue Oct 31 18:06:27 EDT 2017
+h08u07.int.janelia.org
+------------------------------------------
+Setting up environment variables
+---
+LD_LIBRARY_PATH is .:/usr/local/matlab-2017a/runtime/glnxa64:/usr/local/matlab-2017a/bin/glnxa64:/usr/local/matlab-2017a/sys/os/glnxa64:/usr/local/matlab-2017a/sys/opengl/lib/glnxa64
+Reading daq file header info.
+Warning: The 'daqread' function is being deprecated and will be removed in a future release.
+
+> In daqread (line 117)
+  In FlySongSegmenterDAQ (line 14)
+  In fly_song_segmenter (line 32)
+Warning: Directory already exists.
+> In FlySongSegmenterDAQ (line 30)
+  In fly_song_segmenter (line 32)
+Grabbing song from daq file channel 6.
+Warning: The 'daqread' function is being deprecated and will be removed in a future release.
+
+> In daqread (line 117)
+  In FlySongSegmenterDAQ (line 42)
+  In fly_song_segmenter (line 32)
+Fetching parameters.
+Song length is 30.1 minutes.
+Running multitaper analysis #1.
+Starting parallel pool (parpool) using the 'local' profile ...
+Warning: The system time zone setting, 'US/Eastern', does not specify a single time zone unambiguously. It will be treated as 'America/New_York'. See the <a href="matlab:doc('datetime.TimeZone')">datetime.TimeZone property</a> for details about specifying time zones.
+> In verifyTimeZone (line 23)
+  In datetime (line 515)
+  In parallel.internal.cluster.DefaultProperties.getNewJobPropStruct (line 16)
+  In parallel.internal.cluster.CJSSupport/buildJob (line 158)
+  In parallel.cluster.CJSCluster/buildCommunicatingJob (line 465)
+  In parallel.Cluster/createCommunicatingJob (line 92)
+  In parallel.internal.pool.InteractiveClient>iCreateCommunicatingJob (line 715)
+  In parallel.internal.pool.InteractiveClient/start (line 325)
+  In parallel.Pool>iStartClient (line 593)
+  In parallel.Pool.hBuildPool (line 472)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 89)
+  In parallel.internal.pool.PoolArrayManager.getOrAutoCreateWithCleanup (line 49)
+  In pctTryCreatePoolIfNecessary (line 23)
+  In distcomp.remoteparfor.tryRemoteParfor
+  In parallel_function
+  In MultiTaperFTest (line 52)
+  In FlySongSegmenter (line 42)
+  In FlySongSegmenterDAQ (line 48)
+  In fly_song_segmenter (line 32)
+connected to 12 workers.
+Finding noise floor.
+Running wavelet transformation.
+Segmenting pulses.
+Culling pulses heuristically.
+Culling pulses with likelihood model.
+Masking pulses.
+Running multitaper analysis.
+Segmenting sine song.
+Winnowing sine song.
+  Remove sine that overlaps pulse
+  Remove sine song falling between two nearby pulses
+  Call contiguous sequence
+  Discard less n steps
+  Grap clips
+  Produce output
+Run time was 5.68 minutes.
+Tue Oct 31 18:12:37 EDT 2017
